@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.card {
+  overflow: hidden;
+  margin: 45px 72px 60px 72px;
+  font-family: "Plus Jakarta Sans";
+  border: 3px solid #000000;
+  border-radius: 20px 20px 40px 40px;
+}
+.card-header {
+  padding: 32px 20px;
+  color: #ffffff;
+  display: flex;
+  background-color: #0437a5;
+  height: 115px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-header {
+  display: flex;
+  gap: 17px;
+}
+.text-header span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card .card-content {
+  padding: 64px 134px;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 200%;
+  letter-spacing: 0.01em;
+  color: #252525;
+}
+
+.btn-company {
+  width: 321px;
+  height: 67.37px;
+  color: #fff;
+  background-color: #f37e0a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px 0px #f37e0a33;
+}
+
+.card .sender {
+  color: #252525;
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 64px 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .sender .profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card .btn-contact {
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  margin-bottom: 132px;
+  background-color: #0437a5;
+  color: #ffffff;
+  border: none;
+  padding: 20px 144px;
+  border-radius: 20px;
+}
+
+/* utils */
+.mb-72 {
+  margin-bottom: 72px;
+}
